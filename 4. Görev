@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+void kucuk_bul(int a, int b) {
+    if (a < b) {
+        cout << "Küçük olan sayı: " << a << endl;
+    } else {
+        cout << "Küçük olan sayı: " << b << endl;
+    }
+}
+
+int main() {
+    int sayi1 = 10;
+    int sayi2 = 20;
+
+    kucuk_bul(sayi1, sayi2);
+}
