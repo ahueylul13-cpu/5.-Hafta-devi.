@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+void bolum_kontrol(int sayi) {
+    int bolum = sayi / 5;
+    int kalan = sayi - (bolum * 5);
+
+    if (kalan == 0) {
+        cout << "tam bölünür." << endl;
+    } else {
+        cout << "Kalan: " << kalan << endl;
+    }
+}
+
+int main() {
+    int sayi = 17;  // İstediğin sabit sayıyı buraya yazabilirsin
+    bolum_kontrol(sayi);
+}
